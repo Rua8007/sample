@@ -8,7 +8,6 @@ gem 'rails', '4.2.1'
 gem 'rspec-rails', '< 3.0.0'
 gem 'capybara'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'protected_attributes'
 # Use Uglifier as compressor for JavaScript assets
