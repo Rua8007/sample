@@ -59,6 +59,13 @@ text-decoration: none;
 
 .nav li a {
 	color:white;
+
+}
+.nav li a:hover{
+	color: black;
+}
+.dropdown-menu li a{
+color:black;
 }
 
 footer {
@@ -88,7 +95,8 @@ margin-left: 10px;
 /* mixing varialble */
 
 $grayMediumLight: #eaeaea;
-@mixin box sizing {
+
+@mixin box_sizing {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
@@ -97,12 +105,12 @@ box-sizing: border-box;
 .
 .
 /* miscellaneous */
-.debug dump {
+.debug_dump {
 clear: both;
 float: left;
 width: 100%;
 margin-top: 45px;
-@include box sizing;
+@include box_sizing;
 }
 
 /* sidebar */
@@ -139,17 +147,17 @@ width: 100%;
 padding: 10px;
 height: auto;
 margin-bottom: 15px;
-@include box sizing;
+@include box_sizing;
 }
 
-#error explanation {
+#error_explanation {
 color: #f00;
 ul {
 list-style: none;
 margin: 0 0 18px 0;
 }
 }
-.field with errors {
+.field_with_errors {
 @extend .control-group;
 @extend .error;
 }
