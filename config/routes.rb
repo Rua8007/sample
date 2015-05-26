@@ -5,7 +5,7 @@ resources :users
 resources :sessions, only: [:new, :create, :destroy]
 get '/signup', to: 'users#new'
 get '/signin', to: 'sessions#new'
-get '/signout', to: 'sessions#destroy'
+get '/signout', to: 'sessions#destroy', via: :delete
 
   root to: 'static_pages#home'
 get '/signup',to: 'users#new'
