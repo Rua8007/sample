@@ -136,6 +136,7 @@ margin-bottom: 3px;
 .gravatar {
 
 margin-right: 10px;
+
 }
 
 /* forms */
@@ -183,6 +184,8 @@ color: #f00;
 .microposts li{
 				padding: 10px 0;
 				border-top: 1px solid #e8e8e8;
+				float:left;
+				width: 100%;
 }
 .content {
 	display: block;
@@ -193,8 +196,30 @@ color: #f00;
 .gravatar {
 	float: left;
 	margin-right: 10px;
+	padding-bottom: 5px;
 	}
 aside textarea{
 			height: 100px;
 			margin-bottom: 5px;
 }
+/* sidebar */
+.
+.
+.
+.stats {
+overflow: auto;}
+.stats a {
+	float: left;
+	padding: 0 10px;
+	border-left:1px solid #333;
+}
+.stats a:first-child {
+padding-left: 0;
+border: 0;
+}
+.stats a:hover{text-decoration: none;
+			color:blue;
+}
+
+.stats strong {
+	display: block;}
