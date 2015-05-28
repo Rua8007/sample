@@ -24,7 +24,7 @@ gem 'jquery-rails'
 
 
 
-gem 'pg'
+gem 'pg', '0.15'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
